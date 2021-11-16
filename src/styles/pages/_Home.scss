@@ -1,0 +1,40 @@
+body {
+  background-image: url("../../assets/images/home.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: calc(100vh - 24px);
+}
+
+body.error-page {
+  background-image: url('../../assets/images/error.jpg');
+  
+}
+
+body.result-page {
+  background-image: url('../../assets/images/sunset.jpg');
+  min-height: 100vh;
+}
+
+body.result-page-rain {
+  background-image: url('../../assets/images/rain.jpg');
+  min-height: 100vh;
+}
+
+body.result-page-snow {
+  background-image: url('../../assets/images/snow.jpg');
+  min-height: 100vh;
+}
+
+.home {
+  max-width: $lg;
+  margin: 0 auto;
+  &__title {
+    text-align: center;
+    color: $white;
+    font-size: 3em;
+    font-weight: 500;
+    margin: 15% 0 2rem 0;
+    padding: 0 1rem ;
+  }
+}

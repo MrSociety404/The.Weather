@@ -1,0 +1,37 @@
+.weather {
+  .result {
+    position: absolute;
+    bottom: 5em;
+    left: 1em;
+    display: flex;
+    align-items: center;
+    padding: 2em;
+    color: $white;
+    &__title {
+      font-size: 5em;
+      font-weight: 500;
+      margin-right: 1rem;
+    }
+    &__location {
+      margin-right: 2rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      
+    }
+    &__city {
+      font-size: 2em;
+      font-weight: 500;
+    }
+    &__weather {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    &__icon {
+      width: 70px;
+      height: auto;
+    }
+  }
+}

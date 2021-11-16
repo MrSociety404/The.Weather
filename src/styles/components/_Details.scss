@@ -1,0 +1,28 @@
+.weather {
+  .details {
+    background-color: rgba(0,0,0,.40);
+    backdrop-filter: blur(15px);
+    width: 40%;
+    height: 100vh;
+    color: $white;
+    padding: 2rem;
+    overflow-x: auto;
+
+    &__info {
+      border-bottom: 1px solid rgba(255,255,255,.25);
+      margin-bottom: 2rem;
+    }
+    &__title {
+      font-size: 2em;
+      margin-bottom: 2rem;
+    }
+    &__item {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 1.5rem;
+      opacity: .8;
+      text-shadow: 0 0 5px black;
+    }
+  }
+}

@@ -1,0 +1,13 @@
+.weather {
+  display: flex;
+  margin: 0 auto;
+  width: 100%;
+  position: relative;
+  &__info {
+    width: 60%;
+    .header {
+      width: 100%;
+    }
+  }
+    
+}

@@ -1,0 +1,30 @@
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 1.5rem auto;
+  max-width: $xl;
+  width: 100%;
+  padding: 0 1rem;
+  font-size: 1.7em;
+  color: $white;
+  
+  &__box {
+    @extend .linkTrans;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: .2em;
+    svg {
+      font-size: 1.3em;
+    }
+}
+  &__link {
+    padding: .2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}

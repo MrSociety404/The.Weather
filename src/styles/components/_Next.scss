@@ -1,0 +1,23 @@
+.next {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+  margin-bottom: 2rem;
+  &__title {
+    font-size: 1.5em;
+    margin-bottom: 2rem;
+  }
+  &__days {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+    gap: .5em;
+  }
+  &__day {
+    text-align: center;
+    &-icon {
+      width: 70px;
+      height: auto;
+    }
+  }
+}
